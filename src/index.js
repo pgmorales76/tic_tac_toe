@@ -16,6 +16,7 @@ class Square extends React.Component {
 
 // Board React component
 // The Board component renders 9 squares
+// Remember the starting square number is 0!
 class Board extends React.Component {
     renderSquare(i) {
         return <Square />;
