@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
+// Square React component
+// The Square component renders a single <button>
 class Square extends React.Component {
     render() {
         return (
@@ -12,6 +14,8 @@ class Square extends React.Component {
     }
 }
 
+// Board React component
+// The Board component renders 9 squares
 class Board extends React.Component {
     renderSquare(i) {
         return <Square />;
@@ -43,6 +47,8 @@ class Board extends React.Component {
     }
 }
 
+// Game React component
+// The Game component renders a board with placeholder values, which we’ll modify later.
 class Game extends React.Component {
     render() {
         return (
@@ -58,6 +64,8 @@ class Game extends React.Component {
         );
     }
 }
+
+// There are currently no interactive components.
 
 // ========================================
 
